@@ -17,7 +17,7 @@ const options = [
 ];
 
 const configuration = new Configuration({
-  apiKey: import.meta.env.VITE_Open_AI_Key,
+  apiKey: "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",
 });
 
 const openai = new OpenAIApi(configuration);
